@@ -77,6 +77,9 @@ python app.py
 
 ---
 
+## 💡 Why This Exists
+A local business owner asked: "Algoritmo: agrupa las 60+ direcciones en 3 zonas (una por camión), optimiza cada ruta con heurísticas tipo TSP y muestra todo en un mapa interactivo." This tool was a first iteration for that approach.
+
 
 ## ✨ Features
 
