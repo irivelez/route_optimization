@@ -106,19 +106,9 @@ Your CSV file must contain at minimum:
 - `nombre`: Customer or location name
 - `direccion`: Full street address in Bogotá
 
-### Example CSV (semicolon delimiter)
-```csv
-nombre;direccion;localidad
-Cliente A;Carrera 7 #32-16;Centro
-Cliente B;Calle 100 #15-20;Usaquén
-```
+You can find examples of these csv files in the data folder
 
-### Example CSV (comma delimiter)
-```csv
-nombre,direccion,localidad
-Cliente A,Carrera 7 #32-16,Centro
-Cliente B,Calle 100 #15-20,Usaquén
-```
+---
 
 ## 🔧 Troubleshooting
 
