@@ -1,6 +1,5 @@
 # Route Optimization for Bogotá
 
-> Optimize multi-truck delivery routes in Bogotá using clustering + TSP algorithms
 > A web-based vehicle routing application that optimizes delivery routes for multiple trucks in Bogotá, Colombia. The system uses geographic clustering and Traveling Salesman Problem (TSP) algorithms to minimize total travel distance.
 
 **Built for:** Logistics company struggling with inefficient delivery routes in Bogotá  
