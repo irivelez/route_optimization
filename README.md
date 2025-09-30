@@ -54,7 +54,7 @@ pip install -r requirements.txt
 # 4. Run
 python app.py
 
-# 3. Open browser
+# 5. Open browser
 http://localhost:8080
 ```
 
@@ -105,9 +105,6 @@ Your CSV file must contain at minimum:
 ### Required Columns
 - `nombre`: Customer or location name
 - `direccion`: Full street address in Bogotá
-
-### Optional Columns
-- `localidad`: Neighborhood/locality in Bogotá (helps with geocoding)
 
 ### Example CSV (semicolon delimiter)
 ```csv
