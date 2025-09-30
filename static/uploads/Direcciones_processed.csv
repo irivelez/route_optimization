@@ -1,0 +1,101 @@
+nombre,direccion,localidad,peso,volumen
+Cliente 1,Carrera 7 # 72-21,Chapinero,23,54
+Cliente 2,Calle 63 # 13-57,Barrios Unidos,9,39
+Cliente 3,Transversal 27 # 53A-40,Teusaquillo,15,28
+Cliente 4,Carrera 13 # 85-47,Chapinero,7,41
+Cliente 5,Carrera 50 # 61-70,Engativá,5,9
+Cliente 6,Calle 100 # 19A-10,Usaquén,10,36
+Cliente 7,Carrera 15 # 120-67,Usaquén,11,29
+Cliente 8,Calle 80 # 69-12,Engativá,7,24
+Cliente 9,Carrera 30 # 26-60,Teusaquillo,18,30
+Cliente 10,Calle 26 # 69-76,Teusaquillo,21,19
+Cliente 11,Carrera 9 # 69-22,Chapinero,3,17
+Cliente 12,Calle 134 # 55-10,Suba,13,42
+Cliente 13,Carrera 104 # 22J-15,Fontibón,5,13
+Cliente 14,Carrera 50 # 26-19,Teusaquillo,19,46
+Cliente 15,Calle 22 # 68C-51,Fontibón,17,24
+Cliente 16,Calle 18 # 4-85,La Candelaria,8,31
+Cliente 17,Carrera 3 # 15-56,La Candelaria,22,36
+Cliente 18,Carrera 8 # 12B-29,La Candelaria,4,12
+Cliente 19,Calle 45 # 36-14,Teusaquillo,12,49
+Cliente 20,Carrera 19 # 72-01,Chapinero,8,15
+Cliente 21,Carrera 16 # 84-11,Chapinero,14,11
+Cliente 22,Carrera 21 # 43-35,Teusaquillo,16,34
+Cliente 23,Calle 72 # 6-30,Chapinero,11,16
+Cliente 24,Carrera 68 # 68-01,Engativá,14,44
+Cliente 25,Calle 169 # 68A-50,Suba,25,60
+Cliente 26,Carrera 111 # 15A-10,Fontibón,14,39
+Cliente 27,Calle 127 # 17A-65,Usaquén,12,6
+Cliente 28,Carrera 73 # 47D-11,Engativá,17,20
+Cliente 29,Calle 81 # 11-52,Chapinero,6,37
+Cliente 30,Carrera 21 # 77-19,Barrios Unidos,11,32
+Cliente 31,Carrera 100 # 19-60,Fontibón,21,19
+Cliente 32,Calle 85 # 15-28,Chapinero,15,50
+Cliente 33,Carrera 123 # 138-48,Suba,8,8
+Cliente 34,Calle 152 # 54A-39,Suba,5,45
+Cliente 35,Carrera 58 # 128-20,Suba,20,18
+Cliente 36,Calle 8 Sur # 32-15,Antonio Nariño,8,13
+Cliente 37,Carrera 14A # 28-17,Puente Aranda,6,38
+Cliente 38,Carrera 54 # 26-37,Teusaquillo,12,23
+Cliente 39,Calle 122 # 17-10,Usaquén,11,37
+Cliente 40,Calle 22B # 68C-95,Fontibón,24,33
+Cliente 41,Carrera 9 # 79-59,Chapinero,7,50
+Cliente 42,Carrera 17 # 23-35,Santa Fé,9,23
+Cliente 43,Calle 82 # 19-02,Chapinero,13,42
+Cliente 44,Calle 20 # 5-52,La Candelaria,22,31
+Cliente 45,Carrera 72 # 80-94,Engativá,15,15
+Cliente 46,Calle 145 # 106-20,Suba,8,10
+Cliente 47,Carrera 6 # 1-85,La Candelaria,17,34
+Cliente 48,Calle 170 # 76-45,Suba,23,53
+Cliente 49,Calle 22A # 68C-71,Fontibón,4,12
+Cliente 50,Carrera 85F # 53A-58,Engativá,19,39
+Cliente 51,Carrera 112 # 24B-20,Fontibón,7,41
+Cliente 52,Carrera 23 # 63A-10,Barrios Unidos,18,35
+Cliente 53,Carrera 24 # 19-20,Santa Fé,9,21
+Cliente 54,Calle 63 # 23-49,Barrios Unidos,5,11
+Cliente 55,Carrera 11B # 135-67,Usaquén,10,29
+Cliente 56,Calle 67 # 48-20,Barrios Unidos,2,26
+Cliente 57,Calle 40 # 19-65,Teusaquillo,15,42
+Cliente 58,Carrera 88 # 65-46,Engativá,21,17
+Cliente 59,Calle 85A # 23F-21,Barrios Unidos,13,26
+Cliente 60,Carrera 15 # 106-50,Usaquén,14,48
+Cliente 61,Calle 28 # 30-47,Teusaquillo,7,13
+Cliente 62,Carrera 33 # 26A-15,Teusaquillo,11,28
+Cliente 63,Carrera 9 # 50-50,Chapinero,2,44
+Cliente 64,Calle 85A # 12-60,Chapinero,19,53
+Cliente 65,Carrera 97 # 17-15,Fontibón,22,50
+Cliente 66,Calle 18 # 69-15,Antonio Nariño,3,8
+Cliente 67,Carrera 13A # 39-18,Teusaquillo,12,30
+Cliente 68,Calle 128 # 59B-20,Suba,14,23
+Cliente 69,Carrera 106 # 15A-33,Fontibón,15,47
+Cliente 70,Calle 178 # 90-40,Suba,10,25
+Cliente 71,Carrera 47 # 71-16,Barrios Unidos,16,37
+Cliente 72,Calle 200 # 50-15,Usaquén,25,60
+Cliente 73,Carrera 9 # 94A-91,Chapinero,5,29
+Cliente 74,Carrera 77G # 37B-51,Engativá,18,41
+Cliente 75,Calle 64 # 22-60,Barrios Unidos,8,10
+Cliente 76,Carrera 16A # 27-48,Teusaquillo,9,32
+Cliente 77,Carrera 71D # 61-33,Engativá,15,22
+Cliente 78,Calle 26 # 43A-19,Teusaquillo,7,16
+Cliente 79,Carrera 102 # 15F-19,Fontibón,19,36
+Cliente 80,Carrera 11 # 94-27,Chapinero,23,50
+Cliente 81,Carrera 45 # 128C-04,Suba,18,19
+Cliente 82,Calle 8 # 27-31,Antonio Nariño,8,27
+Cliente 83,Carrera 17 # 37-80,Teusaquillo,13,18
+Cliente 84,Carrera 81 # 43-40,Engativá,17,60
+Cliente 85,Calle 173 # 54-45,Suba,6,14
+Cliente 86,Carrera 13 # 35-32,Teusaquillo,14,33
+Cliente 87,Carrera 121 # 17-16,Fontibón,17,22
+Cliente 88,Calle 123 # 7-51,Usaquén,3,5
+Cliente 89,Carrera 8 # 45-20,Chapinero,13,43
+Cliente 90,Calle 70A # 13-32,Barrios Unidos,16,36
+Cliente 91,Carrera 7B # 147-15,Usaquén,20,54
+Cliente 92,Carrera 105 # 16C-67,Fontibón,6,18
+Cliente 93,Calle 36 # 16-63,Teusaquillo,24,27
+Cliente 94,Carrera 18 # 53B-21,Pontevedra,7,9
+Cliente 95,Calle 12 # 3-78,La Candelaria,12,19
+Cliente 96,Carrera 8 # 10-62,La Candelaria,3,22
+Cliente 97,Calle 118 # 15-35,Usaquén,19,49
+Cliente 98,Calle 145 # 103-15,Suba,8,12
+Cliente 99,Carrera 38 # 58-13,Teusaquillo,5,48
+Cliente 100,Carrera 94 # 67-99,Engativá,15,46

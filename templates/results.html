@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block title %}Resultados - Optimización de Rutas{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <div class="card shadow">
+            <div class="card-header bg-success text-white">
+                <h3 class="mb-0">
+                    <i class="fas fa-map"></i>
+                    Mapa de Rutas Optimizadas
+                </h3>
+            </div>
+            <div class="card-body p-0">
+                <div id="map" style="height: 600px;"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card shadow">
+            <div class="card-header bg-info text-white">
+                <h4 class="mb-0">
+                    <i class="fas fa-list"></i>
+                    Resumen de Rutas
+                </h4>
+            </div>
+            <div class="card-body">
+                {% if routes and routes[0].depot %}
+                <div class="alert alert-info mb-3">
+                    <h6 class="mb-2">
+                        <i class="fas fa-warehouse"></i> Depot Central
+                    </h6>
+                    <strong>{{ routes[0].depot.address }}</strong><br>
+                    <small>{{ routes[0].depot.localidad }}</small><br>
+                    <small class="text-muted">Todas las rutas inician y terminan aquí</small>
+                </div>
+                {% endif %}
+                
+                {% for route in routes %}
+                <div class="route-summary mb-4 p-3 border rounded" data-route="{{ loop.index0 }}">
+                    <h5 class="route-title" style="color: {{ route.color }}">
+                        <i class="fas fa-truck"></i>
+                        Camión {{ loop.index }}
+                    </h5>
+                    
+                    <div class="mb-2">
+                        <strong>Tipo:</strong> {{ route.truck_type }}
+                    </div>
+                    
+                    <div class="mb-2">
+                        <strong>Distancia Total:</strong> {{ "%.2f"|format(route.total_distance) }} km
+                    </div>
+                    
+                    <div class="mb-2">
+                        <strong>Paradas de Clientes:</strong> {{ route.customer_count if route.customer_count else (route.stops|length - 2) }}
+                    </div>
+                    
+                    <div class="mb-2">
+                        <strong>Ruta:</strong> 
+                        <small class="text-muted">Depot → Clientes → Depot</small>
+                    </div>
+                    
+                    <button class="btn btn-sm btn-outline-primary toggle-stops" data-route="{{ loop.index0 }}">
+                        <i class="fas fa-list"></i>
+                        Ver Paradas
+                    </button>
+                    
+                    <div class="stops-list mt-2" id="stops-{{ loop.index0 }}" style="display: none;">
+                        <small class="text-muted">Orden de visitas:</small>
+                        <ol class="mt-1 small">
+                            {% for stop in route.stops %}
+                            <li>
+                                {% if stop.is_depot %}
+                                    <strong style="color: #2C3E50;">
+                                        <i class="fas fa-warehouse"></i> {{ stop.nombre }}
+                                    </strong><br>
+                                    <small class="text-muted">{{ stop.direccion }}</small><br>
+                                    <small class="text-info">Punto de partida/llegada</small>
+                                {% else %}
+                                    <strong>{{ stop.nombre }}</strong><br>
+                                    <small class="text-muted">{{ stop.direccion }}</small>
+                                {% endif %}
+                            </li>
+                            {% endfor %}
+                        </ol>
+                    </div>
+                    
+                    <!-- Route efficiency indicator -->
+                    <div class="route-efficiency mt-2">
+                        <small class="text-muted">Eficiencia de Ruta:</small>
+                        <div class="progress mb-1" style="height: 10px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 85%">
+                            </div>
+                        </div>
+                        <small class="text-success">Optimizada geográficamente</small>
+                    </div>
+                </div>
+                {% endfor %}
+                
+                <hr>
+                <div class="text-center">
+                    <a href="/" class="btn btn-primary">
+                        <i class="fas fa-redo"></i>
+                        Nueva Optimización
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    const routesData = {{ routes|tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/map.js') }}"></script>
+{% endblock %}
