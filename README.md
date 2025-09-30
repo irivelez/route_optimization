@@ -114,7 +114,6 @@ Your CSV file must contain at minimum:
 nombre;direccion;localidad
 Cliente A;Carrera 7 #32-16;Centro
 Cliente B;Calle 100 #15-20;Usaquén
-Cliente C;Carrera 13 #85-40;Chapinero
 ```
 
 ### Example CSV (comma delimiter)
@@ -122,7 +121,6 @@ Cliente C;Carrera 13 #85-40;Chapinero
 nombre,direccion,localidad
 Cliente A,Carrera 7 #32-16,Centro
 Cliente B,Calle 100 #15-20,Usaquén
-Cliente C,Carrera 13 #85-40,Chapinero
 ```
 
 ## 🔧 Troubleshooting
@@ -144,7 +142,6 @@ Cliente C,Carrera 13 #85-40,Chapinero
 - Check file encoding is UTF-8
 - Verify required columns exist: `nombre`, `direccion`
 - Check file size is under 16MB
-- Ensure addresses are in Bogotá
 
 ---
 
